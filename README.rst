@@ -8,3 +8,8 @@ Jupyter Notebooks render 結果 :
 
 * `Part 1 <http://nbviewer.ipython.org/github/wdv4758h/Python-Introduction/blob/master/Python%20%E5%85%A5%E9%96%80.ipynb>`_
 * `Part 2 <http://nbviewer.ipython.org/github/wdv4758h/Python-Introduction/blob/master/Python%20%E5%85%A5%E9%96%80%20-%20Part%202.ipynb>`_
+
+
+講課時的 Notebooks:
+
+* `2016_05_11 <http://nbviewer.ipython.org/github/APCLab/Python-Introduction/blob/master/2016_05_11.ipynb>`_
