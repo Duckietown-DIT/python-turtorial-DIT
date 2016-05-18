@@ -12,4 +12,4 @@ Jupyter Notebooks render 結果 :
 
 講課時的 Notebooks:
 
-* `2016_05_11 <http://nbviewer.ipython.org/github/APCLab/Python-Introduction/blob/master/2016_05_11.ipynb>`_
+* `course <http://nbviewer.ipython.org/github/APCLab/Python-Introduction/blob/master/course/course.ipynb>`_
