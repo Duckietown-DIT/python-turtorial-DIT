@@ -13,3 +13,4 @@ Jupyter Notebooks render 結果 :
 講課時的 Notebooks:
 
 * `course <http://nbviewer.ipython.org/github/APCLab/Python-Introduction/blob/master/course/course.ipynb>`_
+* `data sciense <http://nbviewer.ipython.org/github/APCLab/Python-Introduction/blob/master/course/data_sciense.ipynb>`_
