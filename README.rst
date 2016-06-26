@@ -4,8 +4,8 @@ Python 入門
 
 給完全沒有程式基礎的初學者:
 
-* `Part 1 <http://nbviewer.ipython.org/github/wdv4758h/Python-Introduction/blob/master/beginer/Python%20%E5%85%A5%E9%96%80.ipynb>`_
-* `Part 2 <http://nbviewer.ipython.org/github/wdv4758h/Python-Introduction/blob/master/beginer/Python%20%E5%85%A5%E9%96%80%20-%20Part%202.ipynb>`_
+* `Part 1 <http://nbviewer.jupyter.org/github/APCLab/Python-Introduction/blob/master/beginer/Python%20%E5%85%A5%E9%96%80.ipynb>`_
+* `Part 2 <http://nbviewer.jupyter.org/github/APCLab/Python-Introduction/blob/master/beginer/Python%20%E5%85%A5%E9%96%80%20-%20Part%202.ipynb>`_
 
 
 APCLab 講課時的 Notebooks:
