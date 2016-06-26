@@ -2,15 +2,13 @@
 Python 入門
 ========================================
 
-因為要教基礎的 Python 課程，所以做了些簡單的範例 :stuck_out_tongue_closed_eyes:
+給完全沒有程式基礎的初學者:
 
-Jupyter Notebooks render 結果 :
-
-* `Part 1 <http://nbviewer.ipython.org/github/wdv4758h/Python-Introduction/blob/master/Python%20%E5%85%A5%E9%96%80.ipynb>`_
-* `Part 2 <http://nbviewer.ipython.org/github/wdv4758h/Python-Introduction/blob/master/Python%20%E5%85%A5%E9%96%80%20-%20Part%202.ipynb>`_
+* `Part 1 <http://nbviewer.ipython.org/github/wdv4758h/Python-Introduction/blob/master/beginer/Python%20%E5%85%A5%E9%96%80.ipynb>`_
+* `Part 2 <http://nbviewer.ipython.org/github/wdv4758h/Python-Introduction/blob/master/beginer/Python%20%E5%85%A5%E9%96%80%20-%20Part%202.ipynb>`_
 
 
-講課時的 Notebooks:
+APCLab 講課時的 Notebooks:
 
-* `course <http://nbviewer.ipython.org/github/APCLab/Python-Introduction/blob/master/course/course.ipynb>`_
-* `data sciense <http://nbviewer.ipython.org/github/APCLab/Python-Introduction/blob/master/course/data_sciense.ipynb>`_
+* `course <http://nbviewer.ipython.org/github/APCLab/Python-Introduction/blob/master/apclab-course/course.ipynb>`_
+* `data sciense <http://nbviewer.ipython.org/github/APCLab/Python-Introduction/blob/master/apclab-course/data_sciense.ipynb>`_
