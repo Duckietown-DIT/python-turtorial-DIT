@@ -29,6 +29,16 @@
         </section>
 
         <section>
+          <h2>Agenda</h2>
+          <ul>
+            <li>Language and Implementation Ecosystem</li>
+            <li>Python Native Extension</li>
+            <li>Python Package Index (PyPI)</li>
+            <li>Community Activity</li>
+          </ul>
+        </section>
+
+        <section>
           <section>
             <h2>Language and Implementation Ecosystem</h2>
           </section>
@@ -264,6 +274,183 @@
             <h2>
               教授："我們只是想發 JIT paper"
               <p class="fragment">"不小心就做這麼好"</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              還有 PyPy 的各種子專案
+              <p class="fragment">e.g: PyPyJS</p>
+              <p class="fragment">PyPy 跑在 JavaScript Engine 上了</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              因為這世界上有個專案叫 Emscripten
+              <p class="fragment">功能是把 C Code 做 Src-to-Src Compile</p>
+              <p class="fragment">Compile 成 JavaScript</p>
+              <p class="fragment">然後就可以跑在 browser 上</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              與是有人把 PyPy gen 出來的 C Code 接了 Emscripten
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              從此 PyPyJS 長在 browser 上了
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              而且人們又不斷在 tune PyPyJS 的效能
+              <p class="fragment">目前有某些 case PyPyJS 效能 > CPython </p>
+            </h2>
+          </section>
+
+        </section>
+
+        <section>
+
+          <section>
+            <h2>
+              前面都是講<em>同一個</em>語言的實作
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              然而<em>語言</em>本身也有人惡搞
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              更驚悚的是惡搞完 <em>居然還有實作</em>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              RapydScript
+              <p class="fragment">scr-to-scr compiler</p>
+              <p class="fragment">Compile a Python-like lang to JS!</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              再舉個例子： Cython
+              <p class="fragment">Cython 是 Python 語言的 super set</p>
+              <p class="fragment">給你像 C 的 static typing</p>
+              <p class="fragment">然後 Compile to C</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              而 Cython Compile 出來的 module 可以接到 CPython
+              <p class="fragment">就是為了加速</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              前面提到的 PyPy 有個 RPython 的語言
+              <p class="fragment">是個 Python 的 subset</p>
+              <p class="fragment">拿來寫 Interpreter </p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              還有很多 Python X Functional 的惡搞...
+            </h2>
+          </section>
+
+        </section>
+
+        <section>
+
+          <section>
+            <h1>
+              Python Native Extension
+            </h1>
+          </section>
+
+          <section>
+            <h2>
+              實際上 Python import 進來的東西,
+              <p>不一定是個 python module</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              可以是用 C 或其他語言寫的
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              Native Extension 就是指 在機器上跑 native machine code 的 module
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              可以接到底層的 C API 是很重要的
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              有些需要操作記憶體的工作還是需要 C 來完成
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
             </h2>
           </section>
 
