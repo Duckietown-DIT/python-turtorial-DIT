@@ -416,41 +416,185 @@
 
           <section>
             <h2>
+              Standard Lib 裡的 <code>ctypes</code> 提供了 FFI 的能力
+              <p class="fragment">想 dlopen 啥 就 dlopen 啥</p>
             </h2>
           </section>
 
           <section>
             <h2>
+              如果還是嫌 <code>ctyps</code> 麻煩
             </h2>
           </section>
 
           <section>
             <h2>
+              PyPy 有個 子專案叫 CFFI 接起來更方便
+              <p class="fragment">header file 給它看一看， run-time 生出 share lib</p>
             </h2>
           </section>
 
           <section>
             <h2>
+              什麼！ C 無法滿足你？
             </h2>
           </section>
 
           <section>
             <h2>
+              世界上有個專案叫做 SWIG
+              <p class="fragment">做了各種語言的對接</p>
+            </h2>
+          </section>
+
+        </section>
+
+        <section>
+
+          <section>
+            <h2>
+              Python Package Index (PyPI)
             </h2>
           </section>
 
           <section>
             <h2>
+              The Cheese Shop
             </h2>
           </section>
 
           <section>
             <h2>
+              Python 官方開了一個站
             </h2>
           </section>
 
           <section>
             <h2>
+              讓大家可以丟自己做的 Open Source Package 上來
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              怎麼從 PyPI 裝套件下來？
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              <code>pip install ...</code>
+              <p class="fragment">
+                注意在 Unix-like System 需要 root permission
+              </p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              那麼... 東西裝到哪裡去了？
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              Unix: <code>/usr/lib/python3.5/site-packages/xxx</code>
+            </h2>
+            <h2>
+              Windows: <code>\path\to\python\Libs\...</code>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              接著，問題來了，大家都把東西裝到系統資料夾中
+              <p class="fragment">Bob 想要 foo v 1.0</p>
+              <p class="fragment">Alice 想要 foo v 2.0</p>
+              <p class="fragment">怎麼辦？</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              此時 <code>virtualenv</code> 出來拯救世界了
+            </h2>
+            <h3>
+              <p class="fragment">
+                "我們想要隔離環境"
+              </p>
+              <p class="fragment">
+                所以做法是 建立一個跟 /usr/lib 一樣的資料夾結構
+              </p>
+              <p class="fragment">
+                讓 pip 的 install 、 python 的 import 都在這個資料架底下發生
+              </p>
+            </h3>
+          </section>
+
+          <section>
+            <h2>
+              Normal Python: <code>python -m venv myenv</code>
+            </h2>
+            <h2>
+              Anaconda: <code>conda create myenv</code>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              然後在裡面 <code>pip install</code> 就不需要 <code>sudo</code> 了
+            </h2>
+          </section>
+
+        </section>
+
+        <section>
+
+          <section>
+            <h2>
+              Community Activity
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              Python Community @ Taiwan
+              <p class="fragment">PyCon TW</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              亞洲這裡每年會由一個國家舉辦 PyCon APEC
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              去年 (2015) PyCon APEC 就在 TW
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              Local Community @ TW ?
+              <p class="fragment">Taipei.py</p>
+              <p class="fragment">Django Girls</p>
+              <p class="fragment">PyHUG</p>
+              <p class="fragment">... etc</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              PyCon @ the World?
+              <p class="fragment">PyCon US</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              PyData
             </h2>
           </section>
 
