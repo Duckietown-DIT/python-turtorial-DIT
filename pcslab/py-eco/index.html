@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/sky.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+          <h2>Introduction to Python Ecosystem and Community</h2>
+        </section>
+
+        <section>
+          <section>
+            <h2>Language and Implementation Ecosystem</h2>
+          </section>
+
+          <section>
+            <h2>
+              Language 是啥？
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              由語法和語義組成
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              Python (大寫) 是個語言
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              有一份 Spec 定義了 語法 和 語義
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              然後這個語言 *可以* 有 Implementation
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              官方的 Python 實作的那個專案叫做 CPython
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              通常以 小寫 `python` 稱之
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              但是這個世界已經壞了...
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              這世界上還有多到不行的 Python 實作
+            </h2>
+          </section>
+
+        </section>
+
+        <section>
+
+          <section>
+            <h2>
+              舉個例子: Jython
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              整個 Python 實作在 JVM 上面
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              據說跟 Java 可以接軌
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              Leverage 整個 Java Ecosystem
+            </h2>
+          </section>
+
+        </section>
+
+        <section>
+
+          <section>
+            <h2>
+              再舉個例子: IronPython
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              整個 Python 實作在 .NET CLR 上面
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              隨著 M$ Open Source 了 .NET
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              應該有越來越多東西可以亂接
+            </h2>
+          </section>
+
+        </section>
+
+        <section>
+
+          <section>
+            <h2>
+              再舉個例子: MicroPython
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              這個實作是針對 MicroController 的實作
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              為了在有限的資源下跑 Python
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              而且對 std lib 做了閹割
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              這個 Embedded System 的需求
+            </h2>
+          </section>
+
+        </section>
+
+        <section>
+
+          <section>
+            <h2>
+              再舉個例子: PyPy
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              PyPy 又是個更神奇的專案了
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              這世界總是不缺少效率魔人
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              PyPy 是個 有 Just-In-Time (JIT) Compile 的實作
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              開發者的組成很奇怪 <del>有病</del>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              是一群歐洲的大學教授在研究 JIT
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              PyPy 被拿去測各種知名專案
+              <p class="fragment">效能平均提升 7 倍 </p>
+              <p class="fragment">而且不用改專案的 code</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              講一下 PyPy 做了啥
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              PyPy 網頁： PyPy 是用 Python 寫的 <br> Python Interpreter!
+              <p class="fragment">我：尛，這不是更慢嘛？</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              不 ... 實際上是
+            </h2>
+            <h3>
+              <p class="fragment">RPython 寫 Code Gen System</p>
+              <p class="fragment">得到了 C Code</p>
+              <p class="fragment">C Code compile 出 Python Interpreter</p>
+              <p class="fragment">"我們不想寫 C"</p>
+              <p class="fragment">"用 Gen 的啊"</p>
+            </h3>
+          </section>
+
+          <section>
+            <h2>
+              這專案真的很有事
+              <p class="fragment">各種高完成度</p>
+              <p class="fragment">各種跨平臺</p>
+              <p class="fragment">大型主機最近支援了： Z/OS</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+              教授："我們只是想發 JIT paper"
+              <p class="fragment">"不小心就做這麼好"</p>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+            </h2>
+          </section>
+
+          <section>
+            <h2>
+            </h2>
+          </section>
+
+        </section>
+			</div>
+
+    </div><!-- .reveal -->
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
