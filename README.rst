@@ -1,6 +1,13 @@
 ========================================
 Python 入門
 ========================================
+Install  pip python package management
+$ sudo apt-get install pip istall 
+$ pip install ipython
+$ pip install jupyter
+使用jupyter 網頁python 教學
+
+
 
 給完全沒有程式基礎的初學者:
 
