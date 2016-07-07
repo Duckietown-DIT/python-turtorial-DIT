@@ -2,6 +2,7 @@
 Python 入門
 ========================================
 Install  pip python package management
+
 $ sudo apt-get install pip istall 
 
 $ pip install ipython
